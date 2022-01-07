@@ -1,1 +1,1 @@
-alert("Kmin chào bạn!");
+alert("Kmin chào bạn! Chúc mừng năm mới");
