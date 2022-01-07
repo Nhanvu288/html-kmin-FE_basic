@@ -1,15 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
 
-    <script></script>
+<body>
+    <header>
+        <h1>Trang web đầu tiên</h1>
+        <img src="img/planets.gif" alt="Planets" usemap="#planetmap">
+        <map id="planetmap" name="planetmap">
+            <area shape="rect" coords="0,0,82,126" href="pages/sun.html" alt="Sun">
+            <area shape="circle" coords="90,58,3" href="pages/mercur.html" alt="Mercury">
+            <area shape="circle" coords="124,58,8" href="pages/venus.html" alt="Venus">
+        </map>
+    </header>
+    <nav style="background-color: #fcbf16;">
+        <a href="#Footer">Footer</a>
+        <a href="pages/sun.html">Sun</a>
+        <a href="tel:+84816020416">Gọi ngay</a>
+        <a href onclick="alert('Hello')">Lời chào</a>
+        <a href="mailto:academy@kmin.edu.vn">Liên hệ</a>
+        <a href="https://www.google.com.vn" target="_blank" style="float: right;">Tìm kiếm</a>
+    </nav>
+    <main>
+        <section style="width: 65%;">
+            <div>
+                <h2>Tiêu đề 01</h2>
+                <h4><b>Mô tả ngắn, Dec 7, 2025</b></h4>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et assumenda atque cumque veniam
+                    delectus saepe maiores?</div>
+                <div>
+                    <img src="/img/article01.jpg" alt="" style="width: 100%;">
+                </div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nihil consequuntur accusantium
+                    est, molestiae repellat eos rem exercitationem in cupiditate aut facere dolores pariatur illo quasi
+                    explicabo eum officiis quidem tenetur ducimus deserunt error? Mollitia totam inventore ullam
+                    temporibus sapiente perspiciatis aut, eveniet facilis aliquam amet illo alias voluptatibus similique
+                    veniam asperiores nisi, harum fugiat architecto, dignissimos quis eligendi officia deleniti
+                    consequatur.</div>
+            </div>
+
+            <article>
+                <h2>Tiêu đề 02</h2>
+                <h4><b>Mô tả ngắn, Dec 7, 2025</b></h4>
+                <table>
+                    <div style="text-align:center; width: 50%;">Danh sách học viên tham gia Bug Sharing</div>
+                    <tr>
+                        <th><b>Họ tên</b></th>
+                        <th><b>Lớp</b></th>
+                        <th><b>SĐT</b></th>
+                    </tr>
+                    <tr>
+                        <td>Vũ Đình Bảo</td>
+                        <td>Tư duy và kỹ năng lập trình</td>
+                        <td>0384004298</td>
+                    </tr>
+                    <tr>
+                        <td>Lê Hồng Phúc</td>
+                        <td>Lập trình web Front-end</td>
+                        <td>0123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Đặng Minh Tân</td>
+                        <td>Lập trình back-end với NodeJS</td>
+                        <td>null</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <h2>Tiêu đề 03</h2>
+                <div>Các món có thể gọi:</div>
+                <ul>
+                    <li>Coffe</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ul>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ul>
+            </article>
+
+            <hr>
+            <article>
+                <div>Các món có thể gọi:</div>
+                <ol type="A">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ol>
+
+                <ol start="4">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ol>
+
+            </article>
+            <hr>
+            <div>Coffe và Milk nghĩa là gì?</div>
+            <dl>
+                <dt>Coffee
+                <dd>- Thức uống làm cho bạn phê</dd>
+                </dt>
+                <dt>Milk
+                <dd>- Thức uống tốt cho sức khỏe</dd>
+                </dt>
+            </dl>
+
+            <hr>
+
+            <div>Menu chi tiết hơn</div>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea
+                    <ul type="circle">
+                        <li>Black tea</li>
+                        <li>Green tea</li>
+                    </ul>
+                </li>
+                <li>Milk</li>
+            </ul>
+
+
+            <h3><b>Đăng ký khóa học</b></h3>
+
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdoaH5puaI5-7IhFJzglWlpFyllFz74KvxTLsEH3KihPAQDJA/viewform?embedded=true"
+                width="640" height="1221" frameborder="0" marginheight="0" marginwidth="0"
+                style="align-items: center;">Đang tải…</iframe>
+        </section>
+        <aside style="width: 32.5%">
+            <article style="align-items: center; justify-content: center; text-align: center;">
+                <img src="img/avarta.png" alt="" style="width: 70%;">
+                <h3 style="text-align:center;"><b>Vũ Đình Bảo</b></h3>
+                <div style="text-align:center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </article>
+            <h3><b>Bài mới</b></h3>
+                <audio controls>
+                    <source src="media/audio.ogg" type="audio/ogg">
+                    <source src="media/audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video width="100%" height="240" controls>
+                    <source src="media/video.mp4" type="video/mp4">
+                    <source src="media/video.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            <h3>Tin vắng</h3>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <article>
+                <h3>Chúc mừng năm mới :v</h3>
+                <a href="https://kmin.edu.vn/"><img src="img/noel.gif" style="width: 90%" alt=""></a>
+            </article>
+            <article>
+                <h3>Theo dõi fanpage</h3>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhoclaptrinhxuatsac&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </article>
+
+
+
+
+
+        </aside>
+    </main>
+    <footer id="Footer">
+        <h2 style="text-align: center;"><b>Footer: Kmin Academy</b></h2>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
